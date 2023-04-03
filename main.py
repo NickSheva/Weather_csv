@@ -52,5 +52,4 @@ plt.ylim((-9, 30))
 
 #plt.show()
 # сохранение графика
-plt.savefig('weather_sitka', bbox_inches='tight' )
-
+plt.savefig('weather_sitka', bbox_inches='tight')
