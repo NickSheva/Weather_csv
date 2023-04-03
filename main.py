@@ -50,4 +50,7 @@ fig.autofmt_xdate()
 plt.tick_params(axis='both', which='major')
 plt.ylim((-9, 30))
 
-plt.show()
+#plt.show()
+# сохранение графика
+plt.savefig('weather_sitka', bbox_inches='tight' )
+
